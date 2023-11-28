@@ -29,7 +29,7 @@ import Page61 from "../../static/page61.png";
 import Page62 from "../../static/page62.png";
 import Page63 from "../../static/page63.png";
 import Page8mob from "../../static/page-8-mob.png";
-import Footer from "../../static/footer.png";
+import Footer from "../../static/Footer.png";
 
 import { graphql, useStaticQuery } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
