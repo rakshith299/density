@@ -11,6 +11,8 @@ import "../../styles/page7.css";
 import "../../styles/page8.css";
 import "../../styles/pagegra.css";
 
+
+
 import Group from "../../static/Group.png";
 import Group1 from "../../static/group1.png";
 import Group2 from "../../static/group2.png";
