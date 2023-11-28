@@ -1,0 +1,81 @@
+.page-7{
+    position: relative;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.page-7-bg{
+    
+    background-image: url("../static/page7bg.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.page-7-width{
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 100%;
+}
+
+.page-7-heading{
+    font-size: 50px;
+    color: white
+}
+
+.page-7-para{
+    font-size: 20px;
+    padding-top: 1rem;
+    color: gray
+}
+
+.page-7-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+    width: 100%;
+    border: 1px solid gray;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 12px;
+
+}
+
+.page-7-each-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.page-7-btn{
+    background-image: linear-gradient(to right, #D4F938, #54DE68);
+    width: 170px;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px rgba(212, 249, 56, 0.5);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 5rem;
+}

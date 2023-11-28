@@ -1,0 +1,34 @@
+
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    background-color: rgb(8,19,10);
+}
+
+.nav-left{
+
+}
+
+.nav-right{
+
+}
+
+.nav-opt{
+    color: white;
+    margin-right: 15px;
+}
+
+.nav-btn{
+    background-image: linear-gradient(to right, #D4F938, #54DE68);
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+}

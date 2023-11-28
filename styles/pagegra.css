@@ -1,0 +1,30 @@
+.page-gra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #010101;
+    height: 100vh;
+    padding-top: 5rem;
+}
+
+.page-gra-width{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-gra-heading{
+    font-size: 50px;
+    color : white;
+    text-align: center;
+}
+
+.page-gra-pic-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+}
