@@ -252,6 +252,8 @@ export default function Home() {
                   alt={`Image ${index + 1}`}
                 />
               ))}
+
+              
               </div>
           </div>
 
